@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Samim;
+    src: url(../fonts/Samim.woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Samim;
+    src: url(../fonts/Samim-Bold.woff);
+    font-weight: bold;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+body, input {
+    font-family: Samim, tahoma, sans-serif;
+}
+
+.jumbotron {
+    height: 300px;
+    background: url('../hotel image/images/jumbotron.jpg') center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.room-image .panel-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.room-image .panel-body {
+    padding: 0;
+    height: 170px;
+    overflow: hidden;
+}
+
+.room-image .panel-body img {
+    width: 100%;
+}
+
+.footer {
+    line-height: 3;
+    background-color: #eeeeee;
+    margin-top: 30px;
+}
+
+.navbar-static-top {
+    margin: 0;
+}
+.modalk {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 0%;
+    overflow: auto;
+    line-height: 33px;
+    opacity: 0;
+    background-color: #ffffff;
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-contentk {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 70%;
+    border-radius: 10px;
+    height: 485px;
+}
+.closek {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    float: right;
+    line-height: 0px;
+    padding-right: 15px;
+    padding-top: 35px;
+}
+.closek:hover,
+.closek:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+div.modal-contentk h4{
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 20px;
+    padding-top: 29px;
+    padding-bottom: 31px;
+}
+li.first_child{
+    list-style-type: none;
+    margin-right: 18px;
+}
+ul{
+    padding: 0px;
+}
+li{
+    margin-right: 65px;
+    list-style:none;
+}
+div.modal-contentk div{
+    border-bottom: 1px solid #dfdfdf;
+}
+
+input[type="submit"],button#OK{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    width: 90px;
+    height: 37px;
+    background: #3179b4;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
